@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image } from 'semantic-ui-react'
 import PropTypes from 'prop-types';
+import './BioSection.css'
 
 const BioSection = ({ name, text, url }) => (
   <div className="BioSection">

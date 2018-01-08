@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
+import './Intro.css'
 
 const Intro = () => (
   <Grid.Row centered columns={2}>
