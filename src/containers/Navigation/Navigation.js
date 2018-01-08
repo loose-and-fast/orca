@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Menu, Grid, Sticky } from 'semantic-ui-react';
 import Intro from '../../components/Intro/Intro.js';
-import Portfolio from '../Portfolio/Portfolio.js';
+// import Portfolio from '../Portfolio/Portfolio.js';
 import Contact from '../Contact/Contact.js';
 import Bio from '../../components/Bio/Bio.js';
 import './Navigation.css';
@@ -22,6 +22,7 @@ class Navigation extends Component {
   }
 
   render() {
+    const { activeItem } = this.state;
     return (
       <Grid columns={3} id="clue">
         <Router>
