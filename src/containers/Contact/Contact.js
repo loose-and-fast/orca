@@ -12,7 +12,6 @@ import {
   Message
 } from 'semantic-ui-react';
 import './Contact.css';
-import PropTypes from 'prop-types';
 
 class Contact extends Component {
   constructor(props) {

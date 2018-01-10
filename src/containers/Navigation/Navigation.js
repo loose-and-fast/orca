@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Menu, Grid, Sticky } from 'semantic-ui-react';
 import Intro from '../../components/Intro/Intro.js';

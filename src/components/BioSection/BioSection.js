@@ -1,7 +1,7 @@
 import React from 'react';
-import { Image } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
-import './BioSection.css'
+import './BioSection.css';
 
 const BioSection = ({ name, text, url }) => (
   <div className="BioSection">
@@ -11,6 +11,10 @@ const BioSection = ({ name, text, url }) => (
   </div>
 );
 
-BioSection.propTypes = {};
+BioSection.propTypes = {
+  name: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired
+};
 
 export default BioSection;

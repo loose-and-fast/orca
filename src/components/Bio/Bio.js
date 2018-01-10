@@ -1,8 +1,7 @@
 import React from 'react';
-import { Grid, Header, Container } from 'semantic-ui-react';
+import { Grid, Container } from 'semantic-ui-react';
 import './Bio.css';
 import BioSection from '../BioSection/BioSection';
-import PropTypes from 'prop-types';
 
 const Bio = () => (
   <Grid.Column className="Bio">
