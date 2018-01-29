@@ -1,0 +1,13 @@
+#clue {
+    min-height: 100%;
+}
+      
+.nav1 {
+    font-size: 2rem !important;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+      
+#root {
+    height: 100%;
+}
