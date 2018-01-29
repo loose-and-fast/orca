@@ -58,7 +58,7 @@ class Navigation extends Component {
               </Sticky>
             </Grid.Column>
 
-            <Grid.Column width={10} textAlign="middle">
+            <Grid.Column width={10} textAlign="center">
               <Route exact path="/" component={Intro} />
               {/* <Route path="/portfolio" component={Portfolio}/> */}
               <Route path="/bio" component={Bio} />
