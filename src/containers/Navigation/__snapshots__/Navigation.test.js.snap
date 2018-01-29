@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should match the snapshot 1`] = `
+<div
+  className="ui three column grid"
+  id="clue"
+>
+  <div
+    className="centered row"
+  >
+    <div
+      className="three wide column"
+    >
+      <div
+        className={undefined}
+      >
+        <div />
+        <div
+          style={Object {}}
+        >
+          <div
+            className="ui massive inverted text vertical nav1 menu"
+          >
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              <a
+                className="active item"
+                onClick={[Function]}
+              >
+                home
+              </a>
+            </a>
+            <a
+              href="/bio"
+              onClick={[Function]}
+            >
+              <a
+                className="item"
+                onClick={[Function]}
+              >
+                about us
+              </a>
+            </a>
+            <a
+              href="/contact"
+              onClick={[Function]}
+            >
+              <a
+                className="item"
+                onClick={[Function]}
+              >
+                contact
+              </a>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="center aligned ten wide column"
+    >
+      <div
+        className="centered two column row"
+      >
+        <img
+          alt="Not working today"
+          className="logo"
+          src="orca-logo-white.png"
+        />
+      </div>
+    </div>
+    <div
+      className="three wide column"
+    />
+  </div>
+</div>
+`;
